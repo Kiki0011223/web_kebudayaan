@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.logout-form {
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #333;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.logout-form:hover {
+    background: #e44718;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* Menyesuaikan margin agar selaras */
+.nav-links form {
+    margin: 0;
+    display: inline;
+}
+
+/* Header Styles */
+.header {
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ddd;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+    padding: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-links a:hover {
+    background: #ff6b6b;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.beranda-btn {
+    background: #ff6b6b;
+    color: white !important; /* Memastikan teks selalu putih */
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.beranda-btn:hover {
+    background: #ff8787;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero Section */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+        url("../gambar/image9.png");
+    color: white;
+    padding: 4rem 5rem;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    margin-bottom: 2rem;
+    color: #e0e0e0;
+}
+
+.jelajahi-btn {
+    background: #ff6b6b;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Main Content */
+.main-content {
+    padding: 2rem;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.section-title {
+    margin: 2rem 0 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+/* Featured Events */
+.featured-events {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.event-card {
+    background: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.event-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background: #4a4a4a;
+}
+
+.event-card .content {
+    padding: 1rem;
+}
+
+/* About Section */
+.about-section {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.about-text {
+    line-height: 1.6;
+}
+
+.about-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+        url("../gambar/image16.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    height: 400px;
+}
+
+/* Latest Posts */
+.latest-posts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.post-card {
+    background: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.post-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    background: #4a4a4a;
+}
+
+.post-card .content {
+    padding: 0.75rem;
+}
+
+/* Footer */
+footer {
+    background: #212934;
+    color: white;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-text p {
+    margin-left: 20px;
+    width: 200px;
+}
+
+.footer-text p:hover {
+    color: rgb(241, 146, 22);
+    text-decoration: none;
+}

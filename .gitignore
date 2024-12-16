@@ -1,0 +1,31 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+<<<<<<< HEAD
+=======
+/storage/pail
+>>>>>>> 7275130ac15ab9e3fb2f6baab7f239faec0b709e
+/vendor
+.env
+.env.backup
+.env.production
+<<<<<<< HEAD
+=======
+.phpactor.json
+>>>>>>> 7275130ac15ab9e3fb2f6baab7f239faec0b709e
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+<<<<<<< HEAD
+=======
+/.zed
+>>>>>>> 7275130ac15ab9e3fb2f6baab7f239faec0b709e
